@@ -1,0 +1,26 @@
+{
+  "name": "book_record_management_",
+  "version": "1.0.0",
+  "description": "Book record mangaement server built wiht node.js and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abin02/book_record_management_.git"
+  },
+  "author": "Abin Chandran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abin02/book_record_management_/issues"
+  },
+  "homepage": "https://github.com/abin02/book_record_management_#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
