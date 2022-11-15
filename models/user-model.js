@@ -21,11 +21,19 @@ const userSchema = new Schema(
             ref: "Book",
             required: false,
         },
+        issuedDate: {
+            type: String,
+            required: false,
+        },
         returnDate: {
             type: String,
             required: false,
         },
         subscriptionType: {
+            type: String,
+            required: true,
+        },
+        subscriptionDate: {
             type: String,
             required: true,
         }
@@ -34,3 +42,5 @@ const userSchema = new Schema(
         timestamps: true,
     }
 );
+
+module.exports = mongoose.model("User", userSchema);
